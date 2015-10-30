@@ -1,0 +1,114 @@
+.outer-shell {
+	margin: auto;
+  margin-top: 120px;
+	background: darkgrey;
+	height: 300px;
+	width: 500px;
+  border-radius: 5px;
+}
+.inner-shell {
+  position: absolute;
+	margin-top: 10px;
+  margin-left: 20px;
+  background: black;
+	height: 280px;
+	width: 460px;
+  border-radius: 5px;
+  color: white;
+}
+.inner-shell p {
+  position: absolute;
+  color: white;
+  margin-top: 8px;
+  margin-left: 15px;
+  font-size: .3em;
+}
+.left-am-pm {
+  margin-top: 20px;
+  margin-left: 20px;
+  background: darkred;
+  height: 10px;
+  width: 10px;
+  float: left;
+  border-radius: 50%;
+}
+.left-am-pm h2 {
+  color: darkred;
+  margin-left: -10px;
+  font-size: 1em;
+}
+.clock-screen {
+  position: absolute;
+  background: darkred;
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 120px;
+  width: 380px;
+  border-radius: 5px;
+}
+.clock-text p {
+  color: red;
+  font-size: 8em;
+  margin-top: 5px;
+  margin-left: 30px;
+  text-align: center;
+
+}
+.radio-bar {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /*background: lightgrey;*/
+  margin: 5px;
+
+}
+.am-freq {
+  color: ghostwhite;
+}
+.am-freq h1 {
+  font-size: 2.5em;
+}
+.fm-freq {
+	color: ghostwhite;
+  
+}
+.fm-freq h1 {
+  font-size: 2.5em; 
+}
+.horizontal-list {
+  font-size: 1em;
+  list-style: none;
+}
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

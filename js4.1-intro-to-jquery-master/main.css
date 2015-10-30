@@ -1,0 +1,33 @@
+.btn {
+	background: peachpuff;
+	/*height: 100px;*/
+	width: 200px;
+	color: black;
+	text-align: center;
+	padding: 80px;
+	margin: 15% auto 0px auto;
+	font-size: 2em;
+	border-radius: 100px;
+}
+
+.popup {
+	background: papayawhip;
+	padding: 30px;
+	position: fixed;
+	/*margin: auto;*/
+	/*margin-top: 15%;*/
+	top: 44%;
+	left: 43.5%;
+	font-size: 2em;
+
+}
+.x {
+	background: peachpuff;
+	padding: 3px 5px;
+	color: white;
+	position: relative;
+	top: 50px;
+	float: right;
+	margin: -10px;
+	font-size: .7em;
+}

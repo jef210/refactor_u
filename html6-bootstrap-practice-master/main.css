@@ -1,0 +1,86 @@
+/*/////// JUMBTOTRON STYLES ////////*/
+
+/*.container {
+  max-width: 830px;
+}
+.header {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+.container .jumbotron {
+  padding-right: 60px;
+  padding-left: 60px;
+  text-align: center;
+}
+.jumbotron .btn {
+  padding: 14px;
+  font-size: 21px;
+}
+.subheads {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 40px 0;
+}
+.footer {
+  padding-right: 0px;
+  padding-left: 50px;
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}*/
+
+/*/////// JUSTIFIED NAV STYLES ///////*/
+.container {
+  width: 1170px;
+}
+.masthead {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.nav-justified {
+  max-height: 52px;
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

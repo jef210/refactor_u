@@ -1,0 +1,27 @@
+.map {
+	height: 100%;
+	width: 100%;
+}
+/* defines the amount of the screen that the map needs to cover*/
+
+.mapclass {
+	height: 20px;
+	width: 20px;
+	color: yellow;
+}
+
+/* defines the text size color to be displayed on the marker */
+
+.notes {
+	border-radius: 20px;
+	border: 3px solid #cccccc;
+	height: 40px;
+	width: 25%;
+	font-size: .75em;
+	padding: 10px;
+	background-color: #fff;
+}
+
+/* defines the way the text field looks*/
+
+/*only 3 classes are needed for this. everything else is created on click events in jQuery */

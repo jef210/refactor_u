@@ -1,0 +1,231 @@
+/*Horizontally Spaced*/
+.center-text {
+  text-align: center;
+}
+.horizontal-space {
+  padding: 0px 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/*Vertical Spacing*/
+.vertical-space {
+  padding: 100px 0px;
+}
+
+
+/*Horizontal List*/
+.horizontal-list {
+  margin-left: -30px;
+}
+.horizontal-list li {
+  display: inline;
+  margin-left: -5px;
+}
+
+/*Buttons*/
+.btn {
+  background: red;
+  color: white;
+  text-decoration: none;
+  /*height: 50px;
+  width: 150px;*/
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 1px;
+  font-size: 32px;
+  vertical-align: middle;
+  line-height: 50px;
+  border: none;
+}
+
+.btn.big {
+
+}
+.btn.med {
+  /*height: 20px;*/
+  padding: 10px 50px;
+  /*width: 135px;*/
+  font-size: .9em;
+  line-height: 20px;
+
+}
+.btn.sm {
+  height: 10px;
+  width: 20px;
+  font-size: .7em;
+  line-height: 10px;
+}
+.btn:hover {
+  text-decoration: underline;
+  color: silver;
+}
+nav {
+  background: red;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+nav li {
+  display: inline-block;
+  padding: 5px 40px;
+  /*color: white;*/
+
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+
+}
+nav li a:hover {
+  color: silver;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*Pagination*/
+.pagination li {
+  display: inline-block;
+  padding: 10px;
+  color: silver;
+
+}
+.pagination li a {
+  color: red;
+  text-decoration: none;
+}
+.pagination-border li a {
+  border-bottom: 3px solid red;
+  display: block;
+  padding-bottom: 5px;
+  width: 150%;
+  text-align: center;
+  border-radius: 25px;
+}
+.pagination .pagination-no-border {
+  border: none;
+  /*display: none;*/
+}
+.pagination-border-silver {
+  border-bottom: 3px solid silver;
+  display: block;
+  padding-bottom: 5px;
+  width: 150%;
+  text-align: center;
+  border-radius: 25px;
+}
+
+/*Comment Stream*/
+.comment {
+  clear: both;
+  
+}
+.comment img {
+  float: left;
+  padding: 5px 10px;
+  margin: 1px;
+  /*clear: left;*/
+}
+.respond {
+  /*display: inline-block;*/
+ /* float: left;
+  width: 100%;*/
+  overflow: hidden;
+}
+time { 
+  font-size: 12px;
+  color: silver;
+}
+.respond-clear {
+  clear:left;
+}
+
+/*Tabs*/
+.tabs {
+
+}
+.tabs li {
+  display: inline-block;
+  border: 2px solid silver;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  padding: 1px 5px;
+}
+.tabs li a {
+  text-decoration: none;
+  text-align: center; 
+}
+.tabs-text {
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -2px;
+}
+.tabs .tabs-active {
+  border-bottom: 2px solid white;
+  /*text-decoration: underline;*/
+  /*margin-bottom: 100px;*/
+  /*display: none;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

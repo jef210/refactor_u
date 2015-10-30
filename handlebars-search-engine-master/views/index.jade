@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1 Search Page
+	p Welcome to #{title}
+	form#search-form
+		.form-group
+			input#search-text(type="text", placeholder="search", name="search")
+
+	#results
+
+	script#result-template(type="text/x-handlebars-template").
+		<h1 style="font-size: 40px;">{{title}}</h1>
+		<p><em>{{desc}}</em></p>

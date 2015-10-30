@@ -1,0 +1,21 @@
+{
+  "name": "polymer-tutorial",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jef210/js5-edit-in-place",
+  "authors": [
+    "jef <jmalek210@gmail.com>"
+  ],
+  "description": "polmer tutorial",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.5"
+  }
+}

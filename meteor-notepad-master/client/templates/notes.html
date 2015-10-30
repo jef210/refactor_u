@@ -1,0 +1,45 @@
+
+<template name="notepad">
+  <input class="topcoat-textarea full" rows="6" cols="36" placeholder="Add a note.." type="text" id="note-input">
+  {{#each notes}}
+    {{> note}}
+  {{/each}}
+  {{> map}}
+  {{> email}}
+</template>
+
+
+
+<template name="note">
+<div class='full'>
+  <p class="notetext">''{{text}}''</p>
+  <div class='notemoment'><li class="ion-android-time clockicon active" data-pack="android" data-tags="clock" style="display: inline-block;"></li>{{moment}}
+  </div>
+  <img class="photo1" src='{{picture}}'>
+
+<div class="topcoat-button-bar full">
+    <div class="topcoat-button-bar__item getPicture">
+     <button class="topcoat-button-bar__button full"><li class="ion-camera" data-pack="default" data-tags="photo" style="display: inline-block;"></li></button>
+   </div>
+   <div class="topcoat-button-bar__item tts">
+     <button class="topcoat-button-bar__button full"><li class="ion-radio-waves" data-pack="default" data-tags="music, sound, speaker" style="display: inline-block;"></li></button>
+   </div>
+   <div class="topcoat-button-bar__item getLocation">
+     <button class="topcoat-button-bar__button full"><li class="ion-ios-location" data-pack="ios" data-tags="navigation, map, gps, pin" style="display: inline-block;"></li></button>
+   </div>
+   <div class="topcoat-button-bar__item delete">
+     <button class="topcoat-button-bar__button full"><li class="ion-trash-a" data-pack="default" data-tags="delete, remove, dump" style="display: inline-block;"></li></button>
+   </div>
+</div>
+  </div>
+</template>
+
+<template name="email">
+ <textarea class="topcoat-textarea devemail full" placeholder="Report a bug" rows="2" cols="36" id="emailInput"></textarea>
+<div class="topcoat-button-bar full">
+    <div class="topcoat-button-bar__item getPicture">
+    
+     <button class="email topcoat-button-bar__button full">Email Developer</button>
+   </div>
+</div>
+</template>

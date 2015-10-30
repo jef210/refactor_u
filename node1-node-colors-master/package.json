@@ -1,0 +1,8 @@
+{
+  "name": "node1-node-colors",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~4.11.2"
+  }
+}

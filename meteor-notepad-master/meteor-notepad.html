@@ -1,0 +1,42 @@
+<!-- <head>
+  <title>meteor-notepad</title>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzWHkPMc6cWNCmcnSwIRYYeReOBMS6L6Q">
+  </script>
+</head>
+
+<body>
+  <h1>Meteor Notepad!</h1>
+
+  {{> notepad}}
+  {{> email}}
+</body>
+
+<template name="notepad">
+  <input type="text" id="note-input">
+
+
+  {{#each notes}}
+    {{> note}}
+  {{/each}}
+
+
+
+  {{> map}}
+</template>
+
+<template name="note">
+
+  <p>{{text}}</p>
+  <img src='{{picture}}'/>
+  <button class="getPicture">Take a Photo</button>
+  <button class="tts">Speak Note!</button>
+  <button class="getLocation">Add Marker</button>
+  <button class="delete">Delete</button>
+</template>
+
+<template name="email">
+  <input type="text" id="emailInput">
+  <button class="email">Email Developer</button>
+</template>
+ -->
